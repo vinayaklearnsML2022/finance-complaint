@@ -51,7 +51,7 @@ jobs:
 
   continuous-deployment:
     machine: true
-    resource_class: self-hosted
+    resource_class: vinayaklearnsml2022/self-hosted
     environment:
       REPOSITORY: finance-complaint
       GAR_IMAGE_NAME: finance-complaint
